@@ -22,13 +22,17 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+  height:12vh;
   margin-top: 60px;
-  padding: 5px 5px;
+  padding: 21px 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: #fb5849;
 }
 footer .right-text-content {
-  text-align:right;
-  margin-top: 4px;
+  padding-right: 110px;
+  display:inline;
 }
 footer .right-text-content p {
   padding-bottom: 5px;
@@ -37,8 +41,7 @@ footer .right-text-content p {
   text-align: right;
 }
 footer .left-text-content {
-  text-align:left;
-  margin-top: 4px;
+  display: block;
 }
 footer .left-text-content p {
   color: #fff;
@@ -68,7 +71,7 @@ footer .left-text-content ul li a:hover {
   color: #2a2a2a;
 }
 footer .logo {
-  text-align: center;
+  display: inline;
 }
 .fa {
   padding-top: 10px;
@@ -80,16 +83,7 @@ footer .logo {
 
 /*responsive*/
 
-@media (max-width: 992px) {
-  footer .left-text-content {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  footer .right-text-content p {
-    text-align: center;
-    margin-top: 30px;
-  }
-}
+
 </style>
 </head>
 <body> 
@@ -109,6 +103,6 @@ footer .logo {
             <p>© Copyright Klassy Cafe Co. 
              <br>Design: TemplateMo</p>
          </div>
-</footer>
-  </body>
+ </footer>
+</body>
 </html>
